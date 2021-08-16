@@ -46,6 +46,10 @@
 
    comamnd "gcloud config set container/cluster spring-docker-gke-cluster"
    
+   Deploy your image to created cluster
+   
+   command "kubectl run spring-docker-gke --image=asia.gcr.io/spring-docker-gke/spring-docker-gke --port 8080"
+   
    check pods 
    
    command "kubectl get pods"
